@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(255, 255, 0);
+    padding: 20px 40px;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infobar{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: aliceblue;
+}
+
+section {
+    background-color: rgb(250, 247, 247);
+    padding: 20px;
+    color: rgb(6, 7, 7);
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+    scale: 90%;
+}
+#id1 ul li{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+    width:100px;
+    color: aliceblue;
+}
+#id1{
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+    height: 100px; 
+    width: 100px;
+    text-align: center;  
+  
+}
+
+#parah{
+    padding-top: 40px;
+}
+#id2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+#id3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
